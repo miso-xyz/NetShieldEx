@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\760k05.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HWIDPacker" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Security.Cryptography;
+using System.Management;
+using System.Reflection;
+using System.Text;
+using System.Runtime.InteropServices;
+using System.Diagnostics;
+using System.Text.RegularExpressions;
+
+HWIDPacker
+{
+    static class Program
+    {
+        static string ProgramToDecrypt = "DecME";
+        static string IV = "THISISIV";
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool IsDebuggerPresent();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern void CheckRemoteDebuggerPresent(IntPtr Handle, ref bool IsPresent);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool CloseHandle(IntPtr Handle);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetModuleHandle(string lib);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetProcAddress(IntPtr Module, string Function);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool WriteProcessMemory(IntPtr ProcHandle, IntPtr BaseAddress, byte[] Buffer, uint size, int NumOfBytes);
+        private static string TqMIJUcgsXjVgxqJ(string DataToDecrypt, string KeyToDecryptWith, string IVKeyToDecryptWith)
+        {
+            byte[] data = Convert.FromBase64String(DataToDecrypt);
+            using (SHA256CryptoServiceProvider SHA256 = new SHA256CryptoServiceProvider())
+            {
+                byte[] keys = SHA256.ComputeHash(UTF8Encoding.UTF8.GetBytes(KeyToDecryptWith));
+                using (AesCryptoServiceProvider AES = new AesCryptoServiceProvider() { Key = keys, Mode = CipherMode.CBC, Padding = PaddingMode.PKCS7 })
+                {
+                    string initVector = IVKeyToDecryptWith;
+                    byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
+                    AES.IV = initVectorBytes;
+                    ICryptoTransform transform = AES.CreateDecryptor();
+                    byte[] results = transform.TransformFinalBlock(data, 0, data.Length);
+                    string Result = UTF8Encoding.UTF8.GetString(results);
+                    return Result;
+                }
+            }
+        }
+
+        private static string HashingHardwareID(string ToHash)
+        {
+            byte[] KeyToHashWith = Encoding.ASCII.GetBytes("bAI!J6XwWO&amp;A");
+            HMACSHA256 SHA256Hashing = new HMACSHA256();
+            SHA256Hashing.Key = KeyToHashWith;
+            var TheHash = SHA256Hashing.ComputeHash(UTF8Encoding.UTF8.GetBytes(ToHash));
+            StringBuilder builder = new StringBuilder();
+            for (int i = 0; i &lt; TheHash.Length; i++)
+            {
+                builder.Append(TheHash[i].ToString("x2"));
+            }
+            string FinalHash = builder.ToString();
+            return FinalHash;
+        }
+
+        public static string GetHardwareID()
+        {
+            ManagementObjectSearcher CPU = new ManagementObjectSearcher(UTF8Encoding.UTF8.GetString(Convert.FromBase64String("U0VMRUNUICogRlJPTSBXaW4zMl9Qcm9jZXNzb3I=")));
+            ManagementObjectCollection GetCPU = CPU.Get();
+            string CPUID = null;
+            foreach (ManagementObject CPUId in GetCPU)
+            {
+                CPUID = CPUId["ProcessorType"].ToString() + CPUId["ProcessorId"].ToString();
+            }
+            ManagementObjectSearcher BIOS = new ManagementObjectSearcher("SELECT * FROM Win32_BIOS");
+            ManagementObjectCollection GetBIOS = BIOS.Get();
+            string GPUID = null;
+            foreach (ManagementObject BIOSId in GetBIOS)
+            {
+                GPUID = BIOSId["Manufacturer"].ToString() + BIOSId["Version"].ToString();
+            }
+            return HashingHardwareID(CPUID + GPUID);
+        }
+
+        private static bool CloseHandleAntiDebug()
+        {
+            try
+            {
+                CloseHandle((IntPtr)0xDEADC0DE);
+                return false;
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message == "External component has thrown an exception.")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        [STAThread]
+        static void Main()
+        {
+            try
+            {
+                bool IsPresent = false;
+                CheckRemoteDebuggerPresent(Process.GetCurrentProcess().Handle, ref IsPresent);
+                if (Debugger.IsAttached || IsDebuggerPresent() || IsPresent || CloseHandleAntiDebug())
+                {
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    IntPtr NtdllModule = GetModuleHandle("ntdll.dll");
+                    IntPtr DbgUiRemoteBreakinAddress = GetProcAddress(NtdllModule, "DbgUiRemoteBreakin");
+                    IntPtr DbgUiConnectToDbgAddress = GetProcAddress(NtdllModule, "DbgUiConnectToDbg");
+                    byte[] Int3InvaildCode = { 0xCC };
+                    WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiRemoteBreakinAddress, Int3InvaildCode, 6, 0);
+                    WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiConnectToDbgAddress, Int3InvaildCode, 6, 0);
+                    string HWID = GetHardwareID();
+                    StringBuilder DecryptEncryptionKey = new StringBuilder();
+                    for (int c = 0; c &lt; HWID.Length; c++)
+                        DecryptEncryptionKey.Append((char)((uint)HWID[c] ^ (uint)Convert.FromBase64String("SOS12")[c % 4]));
+                    StringBuilder ROT13Encoding = new StringBuilder();
+                    Regex regex = new Regex("[A-Za-z]");
+                    foreach (char KSXZ in DecryptEncryptionKey.ToString())
+                    {
+                        if (regex.IsMatch(KSXZ.ToString()))
+                        {
+                            int C = ((KSXZ &amp; 223) - 52) % 26 + (KSXZ &amp; 32) + 65;
+                            ROT13Encoding.Append((char)C);
+                        }
+                    }
+                    string DecryptedProgram = TqMIJUcgsXjVgxqJ(ProgramToDecrypt, ROT13Encoding.ToString(), IV);
+                    byte[] ProgramToRun = Convert.FromBase64String(DecryptedProgram);
+                    Assembly RunInMemory = Assembly.Load(ProgramToRun);
+                    RunInMemory.EntryPoint.Invoke(null, null);
+                }
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show("Sorry But looks like you are not authorized to use this program." + ex.Message, "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="LicensePacker" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+LicensePacker
+{
+    static class Program
+    {
+        static string ProgramToDecrypt = "DecME";
+        static string IV = "THISISIV";
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool IsDebuggerPresent();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern void CheckRemoteDebuggerPresent(IntPtr Handle, ref bool IsPresent);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool CloseHandle(IntPtr Handle);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetModuleHandle(string lib);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetProcAddress(IntPtr Module, string Function);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool WriteProcessMemory(IntPtr ProcHandle, IntPtr BaseAddress, byte[] Buffer, uint size, int NumOfBytes);
+        private static string TqMIJUcgsXjVgxqJ(string DataToDecrypt, string KeyToDecryptWith, string IVKeyToDecryptWith)
+        {
+            byte[] data = Convert.FromBase64String(DataToDecrypt);
+            using (SHA256CryptoServiceProvider SHA256 = new SHA256CryptoServiceProvider())
+            {
+                byte[] keys = SHA256.ComputeHash(UTF8Encoding.UTF8.GetBytes(KeyToDecryptWith));
+                using (AesCryptoServiceProvider AES = new AesCryptoServiceProvider() { Key = keys, Mode = CipherMode.CBC, Padding = PaddingMode.PKCS7 })
+                {
+                    string initVector = IVKeyToDecryptWith;
+                    byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
+                    AES.IV = initVectorBytes;
+                    ICryptoTransform transform = AES.CreateDecryptor();
+                    byte[] results = transform.TransformFinalBlock(data, 0, data.Length);
+                    string Result = UTF8Encoding.UTF8.GetString(results);
+                    return Result;
+                }
+            }
+        }
+
+        private static bool CloseHandleAntiDebug()
+        {
+            try
+            {
+                CloseHandle((IntPtr)0xDEADC0DE);
+                return false;
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message == "External component has thrown an exception.")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        [STAThread]
+        static void Main()
+        {
+            try
+            {
+                bool IsPresent = false;
+                CheckRemoteDebuggerPresent(Process.GetCurrentProcess().Handle, ref IsPresent);
+                if (Debugger.IsAttached || IsDebuggerPresent() || IsPresent || CloseHandleAntiDebug())
+                {
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    if (!File.Exists(Environment.CurrentDirectory + @"\SOS13"))
+                    {
+                        MessageBox.Show("Please Make a " + "SOS13" + " file in the current program directory and enter the program license to it to continue.", "License Not Found", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        IntPtr NtdllModule = GetModuleHandle("ntdll.dll");
+                        IntPtr DbgUiRemoteBreakinAddress = GetProcAddress(NtdllModule, "DbgUiRemoteBreakin");
+                        IntPtr DbgUiConnectToDbgAddress = GetProcAddress(NtdllModule, "DbgUiConnectToDbg");
+                        byte[] Int3InvaildCode = { 0xCC };
+                        WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiRemoteBreakinAddress, Int3InvaildCode, 6, 0);
+                        WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiConnectToDbgAddress, Int3InvaildCode, 6, 0);
+                        string License = File.ReadAllText(Environment.CurrentDirectory + @"\SOS13");
+                        if (string.IsNullOrEmpty(License))
+                        {
+                            Environment.Exit(0);
+                        }
+                        else
+                        {
+                            StringBuilder NewLicense = new StringBuilder();
+                            for (int c = 0; c &lt; License.Length; c++)
+                                NewLicense.Append((char)((uint)License[c] ^ (uint)Convert.FromBase64String("decryptkeyencryption")[c % 4]));
+                            StringBuilder ROT13Encoding = new StringBuilder();
+                            Regex regex = new Regex("[A-Za-z]");
+                            foreach (char KSXZ in NewLicense.ToString())
+                            {
+                                if (regex.IsMatch(KSXZ.ToString()))
+                                {
+                                    int C = ((KSXZ &amp; 223) - 52) % 26 + (KSXZ &amp; 32) + 65;
+                                    ROT13Encoding.Append((char)C);
+                                }
+                            }
+                            string DecryptedProgram = TqMIJUcgsXjVgxqJ(ProgramToDecrypt, ROT13Encoding.ToString(), IV);
+                            byte[] ProgramToRun = Convert.FromBase64String(DecryptedProgram);
+                            Assembly RunInMemory = Assembly.Load(ProgramToRun);
+                            RunInMemory.EntryPoint.Invoke(null, null);
+                        }
+                    }
+                }
+            }
+            catch (CryptographicException ex)
+            {
+                MessageBox.Show("Sorry, but looks like your license key are invalid.", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="PackStub" xml:space="preserve">
+    <value>using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+LicensePacker
+{
+    static class Program
+    {
+        static string ProgramToDecrypt = "DecME";
+        static string IV = "THISISIV";
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool IsDebuggerPresent();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern void CheckRemoteDebuggerPresent(IntPtr Handle, ref bool IsPresent);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool CloseHandle(IntPtr Handle);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetModuleHandle(string lib);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetProcAddress(IntPtr Module, string Function);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool WriteProcessMemory(IntPtr ProcHandle, IntPtr BaseAddress, byte[] Buffer, uint size, int NumOfBytes);
+        private static string TqMIJUcgsXjVgxqJ(string DataToDecrypt, string KeyToDecryptWith, string IVKeyToDecryptWith)
+        {
+            byte[] data = Convert.FromBase64String(DataToDecrypt);
+            using (SHA256CryptoServiceProvider SHA256 = new SHA256CryptoServiceProvider())
+            {
+                byte[] keys = SHA256.ComputeHash(UTF8Encoding.UTF8.GetBytes(KeyToDecryptWith));
+                using (AesCryptoServiceProvider AES = new AesCryptoServiceProvider() { Key = keys, Mode = CipherMode.CBC, Padding = PaddingMode.PKCS7 })
+                {
+                    string initVector = IVKeyToDecryptWith;
+                    byte[] initVectorBytes = Encoding.ASCII.GetBytes(initVector);
+                    AES.IV = initVectorBytes;
+                    ICryptoTransform transform = AES.CreateDecryptor();
+                    byte[] results = transform.TransformFinalBlock(data, 0, data.Length);
+                    string Result = UTF8Encoding.UTF8.GetString(results);
+                    return Result;
+                }
+            }
+        }
+
+        private static bool CloseHandleAntiDebug()
+        {
+            try
+            {
+                CloseHandle((IntPtr)0xDEADC0DE);
+                return false;
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message == "External component has thrown an exception.")
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        [STAThread]
+        static void Main()
+        {
+            try
+            {
+                bool IsPresent = false;
+                CheckRemoteDebuggerPresent(Process.GetCurrentProcess().Handle, ref IsPresent);
+                if (Debugger.IsAttached || IsDebuggerPresent() || IsPresent || CloseHandleAntiDebug())
+                {
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    if (!File.Exists(Environment.CurrentDirectory + @"\SOS13"))
+                    {
+                        MessageBox.Show("Please Make a " + "SOS13" + " file in the current program directory and enter the program license to it to continue.", "License Not Found", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        IntPtr NtdllModule = GetModuleHandle("ntdll.dll");
+                        IntPtr DbgUiRemoteBreakinAddress = GetProcAddress(NtdllModule, "DbgUiRemoteBreakin");
+                        IntPtr DbgUiConnectToDbgAddress = GetProcAddress(NtdllModule, "DbgUiConnectToDbg");
+                        byte[] Int3InvaildCode = { 0xCC };
+                        WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiRemoteBreakinAddress, Int3InvaildCode, 6, 0);
+                        WriteProcessMemory(Process.GetCurrentProcess().Handle, DbgUiConnectToDbgAddress, Int3InvaildCode, 6, 0);
+                        string License = File.ReadAllText(Environment.CurrentDirectory + @"\SOS13");
+                        if (string.IsNullOrEmpty(License))
+                        {
+                            Environment.Exit(0);
+                        }
+                        else
+                        {
+                            StringBuilder NewLicense = new StringBuilder();
+                            for (int c = 0; c &lt; License.Length; c++)
+                                NewLicense.Append((char)((uint)License[c] ^ (uint)Convert.FromBase64String("decryptkeyencryption")[c % 4]));
+                            StringBuilder ROT13Encoding = new StringBuilder();
+                            Regex regex = new Regex("[A-Za-z]");
+                            foreach (char KSXZ in NewLicense.ToString())
+                            {
+                                if (regex.IsMatch(KSXZ.ToString()))
+                                {
+                                    int C = ((KSXZ &amp; 223) - 52) % 26 + (KSXZ &amp; 32) + 65;
+                                    ROT13Encoding.Append((char)C);
+                                }
+                            }
+                            string DecryptedProgram = TqMIJUcgsXjVgxqJ(ProgramToDecrypt, ROT13Encoding.ToString(), IV);
+                            byte[] ProgramToRun = Convert.FromBase64String(DecryptedProgram);
+                            Assembly RunInMemory = Assembly.Load(ProgramToRun);
+                            RunInMemory.EntryPoint.Invoke(null, null);
+                        }
+                    }
+                }
+            }
+            catch (CryptographicException ex)
+            {
+                MessageBox.Show("Sorry, but looks like your license key are invalid.", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="USBPacker" xml:space="preserve">
+    <value>using System;
+using System.Diagnostics;
+using System.IO;
+using System.Management;
+using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Windows.Forms;
+
+USBPacker
+{
+    internal static class Program
+    {
+        private static string ProgramToDecrypt = "DecME";
+        private static string IV = "THISISIV";
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool IsDebuggerPresent();
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern void CheckRemoteDebuggerPresent(IntPtr Handle, ref bool IsPresent);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool CloseHandle(IntPtr Handle);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetModuleHandle(string lib);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern IntPtr GetProcAddress(IntPtr Module, string Function);
+
+        [DllImport("kernel32.dll", SetLastError = true)]
+        private static extern bool WriteProcessMemory(IntPtr ProcHandle, IntPtr BaseAddress, byte[] Buffer, uint size, int NumOfBytes);
+
+        private static string TqMIJUcgsXjVgxqJ(string DataToDecrypt, string KeyToDecryptWith, string IVKeyToDecryptWith)
+        {
+            byte[] inputBuffer = Convert.FromBase64String(DataToDecrypt);
+            using (SHA256CryptoServiceProvider cryptoServiceProvider1 = new SHA256CryptoServiceProvider())
+            {
+                byte[] hash = cryptoServiceProvider1.ComputeHash(Encoding.UTF8.GetBytes(KeyToDecryptWith));
+                AesCryptoServiceProvider cryptoServiceProvider2 = new AesCryptoServiceProvider();
+                cryptoServiceProvider2.Key = hash;
+                cryptoServiceProvider2.Mode = CipherMode.CBC;
+                cryptoServiceProvider2.Padding = PaddingMode.PKCS7;
+                using (AesCryptoServiceProvider cryptoServiceProvider3 = cryptoServiceProvider2)
+                {
+                    byte[] bytes = Encoding.ASCII.GetBytes(IVKeyToDecryptWith);
+                    cryptoServiceProvider3.IV = bytes;
+                    return Encoding.UTF8.GetString(cryptoServiceProvider3.CreateDecryptor().TransformFinalBlock(inputBuffer, 0, inputBuffer.Length));
+                }
+            }
+        }
+
+        private static string HashingHardwareID(string ToHash)
+        {
+            byte[] bytes = Encoding.ASCII.GetBytes("bAI!J6XwWO&amp;A");
+            HMACSHA256 hmacshA256 = new HMACSHA256();
+            hmacshA256.Key = bytes;
+            byte[] hash = hmacshA256.ComputeHash(Encoding.UTF8.GetBytes(ToHash));
+            StringBuilder stringBuilder = new StringBuilder();
+            for (int index = 0; index &lt; hash.Length; ++index)
+                stringBuilder.Append(hash[index].ToString("x2"));
+            return stringBuilder.ToString();
+        }
+
+        private static string GetUSBHardwareID()
+        {
+            foreach (DriveInfo drive in DriveInfo.GetDrives())
+            {
+                if (drive.DriveType == DriveType.Removable)
+                {
+                    foreach (ManagementObject managementObject in new ManagementObjectSearcher("SELECT * FROM Win32_DiskDrive").Get())
+                    {
+                        if (managementObject["MediaType"].ToString() == "Removable Media")
+                            return Program.HashingHardwareID(drive.TotalSize.ToString() + managementObject["SerialNumber"].ToString() + managementObject["PNPDeviceID"].ToString());
+                    }
+                }
+            }
+            return (string)null;
+        }
+
+        private static bool CloseHandleAntiDebug()
+        {
+            try
+            {
+                Program.CloseHandle((IntPtr)3735929054L);
+                return false;
+            }
+            catch (Exception ex)
+            {
+                if (ex.Message == "External component has thrown an exception.")
+                    return true;
+            }
+            return false;
+        }
+
+        [STAThread]
+        private static void Main()
+        {
+            try
+            {
+                bool IsPresent = false;
+                Program.CheckRemoteDebuggerPresent(Process.GetCurrentProcess().Handle, ref IsPresent);
+                if (Debugger.IsAttached || Program.IsDebuggerPresent() || IsPresent || Program.CloseHandleAntiDebug())
+                {
+                    Environment.Exit(0);
+                }
+                else
+                {
+                    IntPtr moduleHandle = Program.GetModuleHandle("ntdll.dll");
+                    IntPtr procAddress1 = Program.GetProcAddress(moduleHandle, "DbgUiRemoteBreakin");
+                    IntPtr procAddress2 = Program.GetProcAddress(moduleHandle, "DbgUiConnectToDbg");
+                    byte[] Buffer = new byte[1] { (byte)204 };
+                    Program.WriteProcessMemory(Process.GetCurrentProcess().Handle, procAddress1, Buffer, 6U, 0);
+                    Program.WriteProcessMemory(Process.GetCurrentProcess().Handle, procAddress2, Buffer, 6U, 0);
+                    string USBHWID = GetUSBHardwareID();
+                    StringBuilder DecryptEncryptionKey = new StringBuilder();
+                    for (int c = 0; c &lt; USBHWID.ToString().Length; c++)
+                        DecryptEncryptionKey.Append((char)((uint)USBHWID[c] ^ (uint)Convert.FromBase64String("SOS12")[c % 4]));
+                    Assembly.Load(Convert.FromBase64String(Program.TqMIJUcgsXjVgxqJ(Program.ProgramToDecrypt, Convert.ToBase64String(UTF8Encoding.UTF8.GetBytes(DecryptEncryptionKey.ToString())), Program.IV))).EntryPoint.Invoke((object)null, (object[])null);
+                }
+            }
+            catch
+            {
+                MessageBox.Show("Sorry But looks like you are not authorized to use this program.", "Error", MessageBoxButtons.OKCancel, MessageBoxIcon.Hand);
+            }
+        }
+    }
+}</value>
+  </data>
+  <data name="ux_badge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ux_package.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
